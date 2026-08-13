@@ -163,18 +163,7 @@ html[data-theme="dark"] .icon-moon{ display:block; }
   position:relative; z-index:1;
   display:grid; grid-template-columns: 1.05fr .95fr; gap: 60px; align-items:center;
 }
-.eyebrow{
-  display:inline-flex; align-items:center; gap:8px; font-size:.8rem; color: var(--text-muted);
-  text-transform: lowercase; letter-spacing:.03em; margin-bottom: 18px;
-}
-.status-dot{
-  width:8px; height:8px; border-radius:50%; background: #3FBE6B;
-  box-shadow: 0 0 0 3px color-mix(in srgb, #3FBE6B 25%, transparent);
-  animation: pulse 2s ease-in-out infinite;
-}
-@keyframes pulse{ 0%,100%{ opacity:1;} 50%{ opacity:.35; } }
-
-.hero-title{ font-size: clamp(2.6rem, 6vw, 4.4rem); line-height:.98; font-weight:700; margin-bottom:.15em; }
+.hero-title{ font-size: clamp(2.6rem, 6vw, 4.4rem); line-height:.98; font-weight:700; margin-top: 6px; margin-bottom:.15em; }
 .hero-role{ font-size: 1.15rem; color: var(--text-muted); margin-bottom: 18px; }
 .hero-role .divider{ color: var(--accent); margin: 0 6px; }
 .hero-tagline{ font-size: 1.05rem; color: var(--text-muted); max-width: 46ch; margin-bottom: 30px; }
