@@ -10104,3 +10104,36 @@ body.tw-magic-cursor #magic-cursor {
   max-width: 70%;
 }
 
+
+/* ===================== Praveen S — contact form text color fix ===================== */
+#praveenContactForm .form-control,
+#praveenContactForm .form-control:focus,
+#praveenContactForm .form-control:active {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  caret-color: #ffffff !important;
+  background-color: transparent !important;
+}
+
+#praveenContactForm .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.72) !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.72) !important;
+}
+
+#praveenContactForm .form-control::selection {
+  color: #000000 !important;
+  -webkit-text-fill-color: #000000 !important;
+  background: #baff00 !important;
+}
+
+#praveenContactForm input:-webkit-autofill,
+#praveenContactForm input:-webkit-autofill:hover,
+#praveenContactForm input:-webkit-autofill:focus,
+#praveenContactForm textarea:-webkit-autofill {
+  -webkit-text-fill-color: #ffffff !important;
+  caret-color: #ffffff !important;
+  -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+  box-shadow: 0 0 0 1000px transparent inset !important;
+  transition: background-color 9999s ease-in-out 0s;
+}
